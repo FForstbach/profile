@@ -1,7 +1,8 @@
 /* Here goes your CSS */
+/* Here goes your CSS */
 
 body {
-  background-color: rgb(210,210,210);
+  background-color: rgb(239, 172, 172);
   font-family: 'Slabo 27px', serif;
 }
 
@@ -11,12 +12,12 @@ img {
 }
 
 div {
-  width: 400px;
   margin: auto;
 }
 
 ul {
   list-style-type: none;
+  padding: 0;
 }
 
 li {
@@ -24,14 +25,14 @@ li {
   display: inline;
 }
 
-i {
-  color: #008489;
-  margin: 10px;
-}
-
 a {
   text-decoration: none;
   color: #008489;
+}
+
+.container {
+  width: 80% ;
+  margin: 0 0 0 150px;
 }
 
 a:hover {
@@ -61,8 +62,17 @@ p {
   margin: 5px 5px;
 }
 
+i {
+  color: #008489;
+  margin: 20px;
+}
+
 .text-center {
   text-align: center;
+}
+
+.list-inline {
+  display: inline;
 }
 
 .card {
@@ -70,13 +80,46 @@ p {
   border-radius: 4px;
   padding: 40px 10px;
   margin: 20px 0;
-  box-shadow: 1px 1px 1px #bcbaba;
+  box-shadow: 1px 1px 1px black;
+}
+
+#sidebar {
+  position: fixed;
+  width: 90px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgb(50,50,50)
+}
+
+#sidebar i:hover {
+  color: #EFACAC;
+  font-size: 30px;
+}
+
+#sidebar i {
+  color: #f25c5c;
+  font-size: 30px;
 }
 
 #movies img {
   height: 180px;
   width: auto;
   border-radius: 2px;
+}
+
+#clear {
+  clear: both;
+}
+
+#left {
+  float: left;
+  width: 40%;
+}
+
+#right {
+  float: right;
+  width: 55%;
 }
 
 #intro img {
