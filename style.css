@@ -2,7 +2,7 @@
 /* Here goes your CSS */
 
 body {
-  background-color: rgb(239, 172, 172);
+  background-color: #D2BC92;
   font-family: 'Slabo 27px', serif;
 }
 
@@ -27,7 +27,7 @@ li {
 
 a {
   text-decoration: none;
-  color: #008489;
+  color: #80715e;
 }
 
 .container {
@@ -45,7 +45,7 @@ h1, h2, h3 {
 }
 
 h1 {
-  color: #008489;
+  color: #2A353F;
   font-size: 1.8em;
 }
 
@@ -89,16 +89,16 @@ i {
   left: 0;
   top: 0;
   bottom: 0;
-  background-color: rgb(50,50,50)
+  background-color: #2A353F;
 }
 
 #sidebar i:hover {
-  color: #EFACAC;
+  color: #685B4B;
   font-size: 30px;
 }
 
 #sidebar i {
-  color: #f25c5c;
+  color: #AEB49F;
   font-size: 30px;
 }
 
